@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="/home/kumar/Selenium Automation Testing Project/automation/src/test/java/com/example/automation/SeleniumApplicationTests.java">
+        <classes>
+            <class name="com.example.automation.SeleniumApplicationTests">
+                <methods>
+                    <include name="EmailTestBy_Valid_Input"/>
+                    <include name="DobTestBy_Valid_InputFormat"/>
+                    <include name="MobileNoBy_Valid_InputFormat"/>
+                    <include name="EmailTestBy_Invalid_Input_As_Integer"/>
+                    <include name="EmailTestBy_Invalid_Input_As_StringOnly_without_AtTheRate"/>
+                    <include name="EmailTestBy_Valid_Input_As_Wrong_Email"/>
+                    <include name="DobTestBy_InValid_InputFormat_As_String"/>
+                    <include name="DobTestBy_Invalid_InputFormat_As_Integer"/>
+                    <include name="MobileNoBy_Invalid_InputFormat"/>
+                    <include name="MobileNoBy_Invalid_InputFormat_As_String"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
